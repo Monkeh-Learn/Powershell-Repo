@@ -1,3 +1,5 @@
+#initialise functions
+
 function Test-ADOU 
 {
     param($Name)
@@ -47,6 +49,8 @@ function File-Picker
 }
 
 #Begin Script
+
+#Import CSV with users, through pop-up dialogue - problem; doesnt pop up in front
 
 $NewUsers = $null
 
